@@ -3,21 +3,22 @@
   z-index: 1;
 }
 #clock #clockImg {
-  margin: 5% 0 0 20% ;
+  margin: 5% 0 0 20%;
   z-index: 1;
 }
 #clock #secondPointer {
-  z-index: 5;
+  z-index: 2;
   background: red;
-  width: 10px;
-  height: 280px;
-  margin: -55% 0 0 50.6%;
+  width: 260px;
+  height: 10px;
+  margin: -43% 0 0 39.6%;
   position: relative;
-  border-radius: 50%;
+  border-radius: 5px;
+  transform-origin: right center 0;
 }
 #clock #middleCircle {
   position: relative;
-  z-index: 2;
+  z-index: 5;
   width: 30px;
   height: 30px;
   margin: 5% 0 0 -42%;
