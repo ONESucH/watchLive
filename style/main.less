@@ -1,6 +1,7 @@
 // Переменные:
 @circle : #656;
 @secondPointer : red;
+@hover : #990000;
 
 #clock {
   font-size: 30em;
@@ -14,12 +15,37 @@
   #secondPointer {
     z-index: 2;
     background: @secondPointer;
-    width: 260px;
-    height: 10px;
-    margin: -43% 0 0 39.6%;
+    width: 265px;
+    height: 5px;
+    margin: -30.8% 0 0 28%;
     position: relative;
     border-radius: 5px;
     transform-origin: right center 0;
+  }
+
+  #secondPointer:hover {
+    background: @hover;
+    transform: rotation(-30deg);
+  }
+
+  #minutesPointer {
+    z-index: 3;
+    width: 260px;
+    height: 8px;
+    background: #000;
+    position: relative;
+    margin: -0.8% 0 0 28.1%;
+    border-radius: 5px;
+  }
+
+  #hoverPointer {
+  z-index: 2;
+  width: 160px;
+  height: 15px;
+  background: #000;
+  position: relative;
+  margin: -0.8% 0 0 36.9%;
+  border-radius: 5px;
   }
 
   #middleCircle {
