@@ -19,7 +19,7 @@ setInterval(function () {
 }, 50);
 
 setInterval(function () {
-    hoverPointer += 0.00003600000000;
+    hoverPointer += 0.000360000;
     $("#hoverPointer").rotate({
         angle: hoverPointer,
         center: ["right", "center", "0"]
